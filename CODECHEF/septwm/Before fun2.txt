@@ -1,0 +1,5 @@
+Before fun2
+before fun1
+fun1
+after fun1
+after fun2
