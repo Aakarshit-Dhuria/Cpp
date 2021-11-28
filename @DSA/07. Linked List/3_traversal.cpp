@@ -32,4 +32,4 @@ int main()
     head->next->next->next = new Node(40);
     printList(head);
     return 0;
-}
+}3

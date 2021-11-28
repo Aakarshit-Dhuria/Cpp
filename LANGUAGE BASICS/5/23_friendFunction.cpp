@@ -8,6 +8,7 @@
 using namespace std;
 
 class Employee;
+
 class Printer
 {
 public:
@@ -25,10 +26,12 @@ public:
 
     Employee(int i, string n) : id(i), name(n) {}
 };
+
 void Printer::printEmp(const Employee &e)
 {
     cout << e.id << " " << e.name << " ";
 }
+
 int main()
 {
     Printer p;
